@@ -4,3 +4,12 @@ Don't just do, linkeroo. A shell utility tool written in python for mapping out 
 ## installation
 
 pip3 install linkeroo@git+https://github.com/elynch90/linkeroo/
+
+
+## Parameters
+--fp: the file path to traverse, if None will default to current working directory.
+--o: the output fp for the .txt, if none will default to ./linkeroo.txt
+--suffix: the suffix of the file type. Defaults to .a
+
+## How to run
+python3 -m linkeroo --fp $(pwd) 

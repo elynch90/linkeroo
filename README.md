@@ -13,10 +13,10 @@ Don't just do, linkeroo. A shell utility tool written in python for mapping out 
   <code>
     --fp: the file path to traverse, if None will default to current working directory.
     --o: the output fp for the .txt, if none will default to ./linkeroo.txt
-    --suffix: the s
+    --suffix: the suffix of the file type. Defaults to .a
   </code>
 </pre>
-uffix of the file type. Defaults to .a
+
 
 ## How to run
 <pre>

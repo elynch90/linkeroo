@@ -12,8 +12,8 @@ pip3 install linkeroo@git+https://github.com/elynch90/linkeroo/
 --suffix: the suffix of the file type. Defaults to .a
 
 ## How to run
-<area>
+<pre>
   <code>
     python3 -m linkeroo --fp $(pwd) 
   </code>
-</area>
+</pre>

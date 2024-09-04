@@ -1,4 +1,4 @@
-<img src="./static/img/logo.png" style="width:100px">
+<img src="./static/img/logo.png" style="width:256px">
 
 # linkeroo
 Don't just do, linkeroo. A shell utility tool written in python for mapping out paths of C/C++ dependencies for easier static linking.

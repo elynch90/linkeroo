@@ -1,12 +1,14 @@
+from os import getcwd
 from argparse import ArgumentParser
 from pathlib import Path
 from linkeroo.utils import iter_path, format_static_link
+CWD = getcwd()
 
 
 def main() -> None:
     parser = ArgumentParser()
-    parser.add_argument('--fp', help='Input file')
-    parser.add_argument('--output', help='Output file')
+    parser.add_argument('--fp', help='Input file', default=CWD)
+    parser.add_argument('--output', help='Output file', default='linkeroo.txt')
     parser.add_argument('--suffix', help='File suffix', default='.a')
     args = parser.parse_args()
     fp = Path(args.fp)

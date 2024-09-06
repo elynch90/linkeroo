@@ -30,7 +30,8 @@ def fetch_links(fp: str, suffix: str) -> list[str]:
             lib_paths = []
             for path in item.iterdir():
                 if path.is_file() and path.suffix == suffix:
-                    lib_name = path.name.replace('lib', 'l').replace(suffix, '')
+                    lib_name = path.name.replace('lib', 'l')\
+                        .replace(suffix, '')
                     lib_paths.append(lib_name)
                 elif path.is_dir():
                     new_dirs.append(path)

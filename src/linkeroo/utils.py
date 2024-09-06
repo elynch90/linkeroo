@@ -14,6 +14,10 @@ def iter_path(path: Path) -> iter:
 
 
 def fetch_links(fp: str, suffix: str) -> list[str]:
+    """Fetch all static library files in and under a directory
+    :param fp: Path to directory
+    :param suffix: File suffix
+    :return: List of link flags"""
     p = Path(fp)
     dir_path = p if p.is_dir() else p.parent
     if not dir_path.exists():

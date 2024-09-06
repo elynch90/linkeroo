@@ -1,0 +1,3 @@
+-Lsrc/linkeroo/test/lib/foo -lfoo
+-Lsrc/linkeroo/test/lib/bar -lbar
+-Lsrc/linkeroo/test/lib/disco/nite -ldisconites
